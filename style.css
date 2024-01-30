@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html{
+    font-size: 62.5%;
+    font-style: italic;
+}
+body{
+    background-image:url(image/8.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+@font-face {
+    font-family: Poppins-bold;
+    src: url(fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Thin.ttf);
+}
+@media(min-width:600px) {
+    body{
+        background-color: aqua;
+        background-image:url(image/7.jpg) ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    html{
+        font-size: 80%;
+        font-style: normal;
+    }
+    
+
+}
+@media(min-width:1000px){
+   body{
+    color: bisque;
+    background-color: blue; 
+    background-image:url(image/5.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+   }
+   html{
+    font-size: 110%;
+    font-style: italic;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  */
+}
+}
+@media(min-width:1400px){
+     html{
+        font-size: 150%;
+        font-style: normal;
+     }
+    body{
+        background-image:url(image/4.png) ;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        color: rgb(255, 0, 119);
+    }
+}
